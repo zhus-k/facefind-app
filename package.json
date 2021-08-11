@@ -16,7 +16,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start"
+    "start": "serve -s build"
   },
   "eslintConfig": {
     "extends": [
