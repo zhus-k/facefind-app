@@ -16,7 +16,9 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "heroku-postbuild": "echo Skip build on Heroku"
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +37,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "heroku-run-build-script": true
 }
