@@ -2,17 +2,16 @@
 
 A web app for detecting faces in images.
 
+This project was created with [Create React App](https://github.com/facebook/create-react-app).
 
-Built with Clarifai API.
-Created with Node, React and PostgreSQL.
-Written in JavaScript.
+Node, React and PostgreSQL.
+Uses Clarifai API.
 
 [Back-End GitHub Repository](https://github.com/zhus-k/facefind-api)
 
-Deployed on [Heroku](https://facefindfe.herokuapp.com/).
+Deployed on [Heroku](https://facefind-app.herokuapp.com/).
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
