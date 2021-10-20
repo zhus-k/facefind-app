@@ -1,5 +1,5 @@
-import React from 'react'
-import './ImageLinkForm.css'
+import React from 'react';
+import './ImageLinkForm.css';
 
 const ImageLinkForm = ({ onInputChange, onSubmit: onUrlSubmit }) => {
     return(
@@ -9,7 +9,7 @@ const ImageLinkForm = ({ onInputChange, onSubmit: onUrlSubmit }) => {
             </p>
             <div className='center'>
                 <div className='form pa3 br3 shadow-5 center'>
-                    <input className='f4 pa2 w-70 center' type='text' onChange={ onInputChange } onSubmit= { onUrlSubmit }/>
+                    <input className='f4 pa2 w-70 center text-input' type='text' onChange={ onInputChange } onSubmit= { onUrlSubmit }/>
                     <button className='w-30 frow f4 link ph3' onClick={ onUrlSubmit }>Detect</button>
                 </div>
             </div>
