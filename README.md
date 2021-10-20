@@ -1,4 +1,4 @@
-# Face Detection Web App Front-End
+# Face Detection Web App
 
 A web app for detecting faces in images.
 
